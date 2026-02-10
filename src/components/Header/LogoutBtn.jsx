@@ -3,6 +3,7 @@ import { useDispatch } from 'react-redux'
 import authService from '../../appwrite/config'
 import { logout } from '../../store/authSlice'
 
+// below syntax is used to create a logout button component which will be rendered in the header when the user is logged in and when the logout button is clicked then it will log out the user and navigate to the home page
 function LogoutBtn() {
     const dispatch = useDispatch();
 

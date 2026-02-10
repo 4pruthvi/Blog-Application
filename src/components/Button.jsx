@@ -1,5 +1,6 @@
 import React, { Children } from 'react'
 
+// below syntax is used to create a button component which can be reused in the application and it accepts children, type, bgColor, textColor, className and other props as parameters
 function Button({
     children,
     type = 'button',
