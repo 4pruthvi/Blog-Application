@@ -2,7 +2,7 @@ import React,{useEffect,useState} from 'react'
 import { useNavigate } from 'react-router-dom'
 import authService from '../appwrite/auth'
 import { useSelector } from 'react-redux'
-import { set } from 'react-hook-form'
+
 
 export default function Protected({children, authentication = true}) {
     const navigate = useNavigate()
